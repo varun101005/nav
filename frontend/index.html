@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TransitFlow:Route Finder</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body>
+  <div class="app-container">
+    <h1>TransitFlow 🚀</h1>
+    <p class="subtitle">AI-powered route planner for public transport navigation</p>
+
+    <div class="input-container">
+      <input id="source" placeholder="Enter Source Station">
+      <input id="destination" placeholder="Enter Destination Station">
+      <button onclick="findRoute()">Find Route</button>
+    </div>
+
+    <div class="feature-buttons">
+      <button onclick="swapStations()">🔁 Swap Stations</button>
+      <button onclick="clearRoute()">🧹 Clear</button>
+      <button onclick="showNearby()">📍 Nearby Stations</button>
+    </div>
+
+    <div id="map"></div>
+    <div id="routeDetails"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
