@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/Varun/OneDrive/Desktop/transport_navigation/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/transport_navigation.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\transport_navigation.dir\\src\\main.cpp.obj -c C:\\Users\\Varun\\OneDrive\\Desktop\\transport_navigation\\src\\main.cpp",
+  "file": "C:/Users/Varun/OneDrive/Desktop/transport_navigation/src/main.cpp",
+  "output": "CMakeFiles/transport_navigation.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Varun/OneDrive/Desktop/transport_navigation/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/transport_navigation.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\transport_navigation.dir\\src\\Graph.cpp.obj -c C:\\Users\\Varun\\OneDrive\\Desktop\\transport_navigation\\src\\Graph.cpp",
+  "file": "C:/Users/Varun/OneDrive/Desktop/transport_navigation/src/Graph.cpp",
+  "output": "CMakeFiles/transport_navigation.dir/src/Graph.cpp.obj"
+},
+{
+  "directory": "C:/Users/Varun/OneDrive/Desktop/transport_navigation/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/transport_navigation.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\transport_navigation.dir\\src\\Dijkstra.cpp.obj -c C:\\Users\\Varun\\OneDrive\\Desktop\\transport_navigation\\src\\Dijkstra.cpp",
+  "file": "C:/Users/Varun/OneDrive/Desktop/transport_navigation/src/Dijkstra.cpp",
+  "output": "CMakeFiles/transport_navigation.dir/src/Dijkstra.cpp.obj"
+},
+{
+  "directory": "C:/Users/Varun/OneDrive/Desktop/transport_navigation/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/transport_navigation.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\transport_navigation.dir\\src\\FloydWarshall.cpp.obj -c C:\\Users\\Varun\\OneDrive\\Desktop\\transport_navigation\\src\\FloydWarshall.cpp",
+  "file": "C:/Users/Varun/OneDrive/Desktop/transport_navigation/src/FloydWarshall.cpp",
+  "output": "CMakeFiles/transport_navigation.dir/src/FloydWarshall.cpp.obj"
+}
+]

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TransitFlow:Route Finder</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGI1o5bmYGAVM2GF8eflaTmLNcTZ_37OE&libraries=places"></script>
+  <style style.css></style>
+</head>
+<body>
+  <div class="app-container">
+    <h1>TransitFlow 🚀</h1>
+    <p class="subtitle">AI-powered route planner for public transport navigation</p>
+
+    <div class="input-container">
+      <input id="source" placeholder="Enter Source Station">
+      <input id="destination" placeholder="Enter Destination Station">
+      <button onclick="findRoute()">Find Route</button>
+    </div>
+
+    <div class="feature-buttons">
+      <button onclick="swapStations()">🔁 Swap Stations</button>
+      <button onclick="clearRoute()">🧹 Clear</button>
+      <button onclick="showNearby()">📍 Nearby Stations</button>
+    </div>
+
+    <div id="map"></div>
+    <div id="routeDetails"></div>
+
+    <h2 style="text-align:center; margin-top: 30px;">🗺️ City View</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27905.798779895675!2d78.020608!3d30.3398912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1745199574206!5m2!1sen!2sin"
+      height="400"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <script script.js></script>
+  <script src="script.js"></script>
+</body>
+</html>
